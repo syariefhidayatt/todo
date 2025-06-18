@@ -48,7 +48,7 @@ export default async function Page() {
                 <CardTitle>{note.title}</CardTitle>
               </CardHeader>
               <CardContent className="flex-grow space-y-4">
-                <p className="text-sm text-muted-foreground">{note.content}</p>
+                <p className="text-sm text-muted-foreground">{note.deskripsi}</p>
                 <div className="flex items-center gap-2 text-sm">
                   <Wallet className="h-4 w-4" />
                   <span className="font-medium">{formatCurrency(note.price)}</span>
